@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bookman old style', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+  
+#menu {
+    height: 100px;
+    margin: 0 auto;
+    background: url(./images/ddf6dae6ff6b6864114bf983a65095d9.jpg) no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header {
+    height: 770px;
+    background: url(./images/PotatoHeadHongKong_Music-Room_5.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    color: white;
+}
+
+header h1 {
+    padding-top: 233px;
+    font-size: 3rem;
+    margin-bottom: 31px;
+}
+
+header h2 {
+    padding-bottom: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+#menu::before, #menu::after {
+    content: "";
+    display: block;
+}
+
+#menu::after {
+    clear: both;
+}
+
+#menu nav {
+    float: right;
+    right: 150px;
+}
+  
+#menu nav a {
+    text-decoration: none;
+    color: rgb(234, 232, 232);
+    margin-left: 32px;
+    letter-spacing: 1px;
+}
+
+#logo, nav {
+  display: block;
+  position: absolute;
+  height: 100%;
+  align-content: center;
+  font-size: large;
+  font-family: 'Bookman old style', sans-serif;
+}
+
+#logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    left: 140px;
+    color: rgb(234, 232, 232);
+}
+
+.button {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Bookman old style', sans-serif;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-style: dashed;
+    border-radius: 15px;
+    padding: 16px 40px;
+    color: #fff;
+    transition: 0.5s;
+    text-align: center;
+    display: block;
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.button_1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Bookman old style', sans-serif;
+    background-color: transparent;
+    border: 2px solid #282828;
+    border-radius: 15px;
+    padding: 16px 40px;
+    color: #282828;
+    transition: 0.5s;
+    text-align: center;
+    display: block;
+    width: 15vw;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#shop, #about_us, table, #forms, #contacts {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#shop {
+    border-bottom: 2px solid gray;
+}
+
+#forms, #contacts {
+    border-bottom: 2px solid gray;
+}
+
+.container h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    margin: 25px auto;
+    border-bottom: 2px solid;
+    clear: both;
+}
+
+.container pre {
+    margin-bottom: 70px;
+    margin-right: 120px;
+}
+
+.row::before, .row::after {
+  content: "";
+  display: block;
+}
+
+.row::after {
+  clear: both;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.column img {
+    width: 50%;
+    float: left;
+    margin-left: 150px;
+}
+
+.container p {
+    font-size: 15px;
+}
+
+a:hover {
+    color: rgb(86, 150, 189);
+}
+
+table, td, th, caption {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+caption {
+    border-bottom: 0px;
+}
+
+td {
+    min-width: 300px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+  
+tr {
+    vertical-align: middle;
+}
+
+caption {
+    padding: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+  
+thead th {
+    padding: 30px;
+    font-weight: bold;
+}
+
+caption {
+    background: url(./images/15xyk1lhhjnw4rnj0grm40wrs396rp3u.jpg) no-repeat;
+    background-size: 100%;
+    color: #f9f9f9;
+}
+
+label {
+    font-size: 20px;
+}
+
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    width: 200px;
+    margin-left: 120px;
+}
+  
+option {
+    padding: 0;
+}
+  
+input[type="range"] {
+    width: 200px;
+    margin: 0;
+}
+
+.buttons {
+    width: 100px;
+    height: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: 'Bookman old style', sans-serif;
+    background-color: #ffd3d8;
+    color: rgb(67, 64, 64);
+    border-radius: 15px;
+    border: 2px solid rgb(67, 64, 64);
+    border-style: dashed;
+    font-size: 18px;
+}
+
+#contacts {
+    font-size: 20px;
+}
